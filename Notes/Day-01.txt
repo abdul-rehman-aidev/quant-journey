@@ -1,0 +1,41 @@
+Day 1 covers the basics of python:
+1) How python variables are stored:
+        The values are assigned space in the memory
+        But the variable is actuallly just a sticky note
+    Re-assigning one variable means the other sticky nots are not touched
+
+2) Variable types:
+    Int: whole number like 2
+    float: decimal numbers like 2.1
+    Boolean: True False, True=1, false=0
+    String: text
+
+    Conversion:
+    int(2.9) will only give 2 
+    float(3) will give 3.0
+
+3) Arithematic: 
+    0.1+0.2!=0.3
+    because decimals in computer are stored as binary
+    they are not stored as exact values
+
+    never compare decimal values using ==
+
+    use Decimal Module
+
+4) Miscellaneous
+    Naming variables
+    a-z
+    A-z
+    0-9
+    _
+
+    some names are reserved by python and cannot be used
+    to check these names one can use the following:
+    import keywords
+    print(keyword.kwlist)
+    this gives the list of reserved keywords
+
+    can start the name of a variable by letter or underscore but not number
+
+    
